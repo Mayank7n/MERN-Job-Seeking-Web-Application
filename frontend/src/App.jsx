@@ -23,7 +23,7 @@ const App = () => {
     const fetchUser = async () => {
       try {
         const response = await axios.get(
-          "https://job-seeking-web-application-7pyc.onrender.com",
+          "http://localhost:4000/api/v1/user/getuser",
           {
             withCredentials: true,
           }
